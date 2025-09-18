@@ -1,5 +1,5 @@
 [project]
-name = "ai-agent"
+name = "marketing-agent"
 version = "0.1.0"
 description = "An AI agent that processes local text files with remote LLMs"
 readme = "README.md"
@@ -38,7 +38,7 @@ dev = [
 ]
 
 [project.scripts]
-ai-agent = "cli:cli"
+marketing-agent = "cli:cli"
 
 [build-system]
 requires = ["hatchling"]
