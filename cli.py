@@ -13,7 +13,7 @@ from typing import Optional
 
 import click
 
-from ai_agent import AIAgent, Config
+from marketing_agent import AIAgent, Config
 
 
 def logging_setup(verbose: bool = False):
