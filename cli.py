@@ -16,7 +16,7 @@ import click
 from ai_agent import AIAgent, Config
 
 
-def setup_logging(verbose: bool = False):
+def logging_setup(verbose: bool = False):
     """Setup logging configuration."""
     level = logging.DEBUG if verbose else logging.INFO
     logging.basicConfig(
@@ -33,7 +33,7 @@ def cli(ctx, verbose):
     """AI Agent - Process local text files with remote LLMs."""
     ctx.ensure_object(dict)
     ctx.obj['verbose'] = verbose
-    setup_logging(verbose)
+    logging_setup(verbose)
 
 
 @cli.command()
