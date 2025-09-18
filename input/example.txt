@@ -1,0 +1,14 @@
+This is an example text file.
+
+It contains multiple paragraphs and demonstrates how the AI agent can process local text files.
+
+The agent is designed to be flexible and can handle various types of text content, from simple documents to complex technical papers.
+
+Key features include:
+- Multi-provider LLM support
+- Flexible file processing
+- Recursive directory scanning
+- Streaming responses
+- Comprehensive error handling
+
+This file serves as a test case for the AI agent's file reading and processing capabilities.
